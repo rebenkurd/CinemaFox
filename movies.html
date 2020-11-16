@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaFox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+
+<body>
+     <!-- Loading -->
+ <div class="loading">
+    <ul>
+        <li>L</li>
+        <li>O</li>
+        <li>A</li>
+        <li>D</li>
+        <li>I</li>
+        <li>N</li>
+        <li>G</li>
+    </ul>
+</div>
+   
+    <!-- Haeder Start -->
+    <header>
+        <!-- Navbar Start -->
+        <div class="navbar">
+            <div class="logo">
+                <!-- <a href="#"><span>CinemaFox</span></a> -->
+               <a href="#"><img src="/assets/img/Logo/Logo1.png" alt="CinemaFox"></a> 
+            </div>
+            <ul>
+                <li><a href="/index.html">سەرەتا</a></li>
+                <li><a href="/movies.html">فیلمەکان</a></li>
+                <li><a href="/movie_series.html">زنجیرە فیلمەکان</a></li>
+                <li><a href="/series.html">زنجیرە</a></li>
+                <li><a href="/news.html">نوێترین هەواڵ</a></li>
+                <li><a href="/date_time.html">بەرواری بڵاوکردنەوە</a></li>
+            </ul>
+        </div>
+        <!-- Searching -->
+        <div class="search">
+            <input type="text" placeholder=".... گەاڕان لە ناو ماڵپەڕدا">
+            <div class="btn_open"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div class="btn_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        </div>
+        <!-- Slider -->
+        <div class="slider">
+            <div><a href=""><img src="/assets/img/slider/slide1.jpg" alt=""></a></div>
+            <div><a href=""><img src="/assets/img/slider/slide2.jpg" alt=""></a></div>
+            <div><a href=""><img src="/assets/img/slider/slide3.jpg" alt=""></a></div>
+            <div><a href=""><img src="/assets/img/slider/slide4.jpg" alt=""></a></div>
+            <div><a href=""><img src="/assets/img/slider/slide5.jpg" alt=""></a></div>
+        </div>
+    </header>
+    <!-- Haeder end -->
+
+    <!-- MAIN start -->
+    <main>
+            <!-- Movies -->
+        <div class="header_movies">
+            <div class="select">
+                <select>
+                    <option>جۆری فیلم</option>
+                    <option>سەرکێشی</option>
+                    <option>ترسناک</option>
+                    <option>کۆمیدی</option>
+                    <option>ئاکشن</option>
+                    <option>کۆمەڵایەتی</option>
+                    <option>ئەنیمی</option>
+                    <option>خەیاڵی</option>
+                    <option>مێژووی</option>
+                    <option>دێکۆمێنتاری</option>
+                    <option>خۆرئاوایی</option>
+                    <option>خەیاڵی زانستی</option>
+                    <option>توندوتیژی</option>
+                    <option>دراما</option>
+                    <option>جەنگ</option>
+                    <option>ژیاننامە</option>
+                    <option>ئاکشن</option>
+                    <option>وەرزشی</option>
+                    <option>تاوان</option>
+                </select>
+                <select>
+                    <option>ڕیزبەندی</option>
+                    <option>زۆرترین بینراو</option>
+                    <option>کۆنترین </option>
+                    <option>زۆرترین داهات</option>
+                    <option>زۆرترین بودجە</option>
+                    <option>IMDB بەرزترین ڕەیتینگ بە پێی </option>
+                </select>
+                <select>
+                    <option value="" selected="">ساڵ</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                    <option value="1988">1988</option>
+                    <option value="1987">1987</option>
+                    <option value="1986">1986</option>
+                    <option value="1985">1985</option>
+                    <option value="1984">1984</option>
+                    <option value="1983">1983</option>
+                    <option value="1982">1982</option>
+                    <option value="1981">1981</option>
+                    <option value="1980">1980</option>
+                    <option value="1979">1979</option>
+                    <option value="1977">1977</option>
+                    <option value="1975">1975</option>
+                    <option value="1974">1974</option>
+                    <option value="1972">1972</option>
+                    <option value="1968">1968</option>
+                    <option value="1966">1966</option>
+                    <option value="1965">1965</option>
+                    <option value="1964">1964</option>
+                    <option value="1963">1963</option>
+                    <option value="1962">1962</option>
+                    <option value="1961">1961</option>
+                    <option value="1960">1960</option>
+                    <option value="1959">1959</option>
+                    <option value="1958">1958</option>
+                    <option value="1957">1957</option>
+                    <option value="1956">1956</option>
+                    <option value="1954">1954</option>
+                    <option value="1950">1950</option>
+                    <option value="1948">1948</option>
+                    <option value="1942">1942</option>
+                    <option value="1940">1940</option>
+                    <option value="1936">1936</option>
+                    <option value="1931">1931</option>
+                    <option value="1928">1928</option>
+                    <option value="1926">1926</option>
+                    <option value="1925">1925</option>
+                    <option value="1923">1923</option>
+                    <option value="1918">1918</option>
+                    <option value="1916">1916</option>
+                    <option value="1915">1915</option>
+                </select>
+            </div>
+            <div class="line"></div>
+            <span>(125) فیلمەکان</span>
+        </div>
+        <!-- movies cards -->
+        <div class="card_movies">
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m1.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>Jumanji</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="/single_movies.html"><img src="/assets/img/movies/m2.jpg"></a>
+                </div>
+                <div class="card_title"><a href="/single_movies.html"><span>hard kill</span></a></div>
+                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m3.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>season of the witch</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m4.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>pirates of caribbean</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m5.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>the lord of the rings</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m6.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>step up 2</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m7.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>stalkers who kill</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m8.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>who am i </span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m9.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>legend</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+            <div class="cards">
+                <div class="card_header">
+                    <a href="#"><img src="/assets/img/movies/m10.jpg"></a>
+                </div>
+                <div class="card_title">
+                    <a href="#"><span>10 minutes gone</span></a>
+                </div>
+                                <div class="card_view"><span>230,09221&nbsp;<i class="fa fa-eye"></i></span></div>
+                <div class="card_time"><span>190 Min&nbsp;<i class="fa fa-clock"></i></span></div>
+            </div>
+        </div> 
+    </main>
+    <!-- MAIN end -->
+
+    <!-- Footer Start -->
+        <footer> 
+            <div class="logo">
+                 <!-- <span> <a href="#">CinemaFox</a></span> -->
+             <img src="/assets/img/Logo/Logo2.png" alt="">
+              </div>
+          
+              <div class="container">
+              <div class="about_us">
+                  <span>دەربارەی ئێمە</span>
+                  <p>سینەما فۆکس لەگەڵ ئەوەی یەکەمین ماڵپەڕی کوردییە کەتایبەتە بە فیلم و دراماکان بەژێرنوسی کوردی، هاوکات
+                      گرنگی بە هەواڵ و زانیاری تایبەت بە سینەما و ئەستێرەکانی ئەو بوارە ئەدات و بینەرانی خۆی لە زانیارییە
+                      تایبەتمەندەکان بێبەشناکات.</p>
+              </div>
+              <div class="navbar">
+                  <span>بەشەکان</span>
+                  <ul>
+                      <li><a href="#">سەرەتا</a></li>
+                      <li><a href="#">فیلمەکان</a></li>
+                      <li><a href="#">زنجیرە فیلمەکان</a></li>
+                      <li><a href="#">زنجیرە</a></li>
+                      <li><a href="#">نوێترین هەواڵ</a></li>
+                      <li><a href="#">بەرواری بڵاوکردنەوە</a></li>
+                  </ul>
+              </div>
+  
+              <div class="tags">
+                  <span>جۆری فیلمەکان</span>
+                  <ul>
+                      <li><a href="#">سەرکێشی</a></li>
+                      <li><a href="#">ترسناک</a></li>
+                      <li><a href="#">کۆمیدی</a></li>
+                      <li><a href="#">ئاکشن</a></li>
+                  </ul>
+                  <ul>
+                      <li><a href="#">کۆمەڵایەتی</a></li>
+                      <li><a href="#">ئەنیمی</a></li>
+                      <li><a href="#">خەیاڵی</a></li>
+                      <li><a href="#">مێژووی</a></li>
+                      <li><a href="#">دێکۆمێنتاری</a></li>
+                      <li><a href="#">خۆرئاوایی</a></li>
+                      <li><a href="#">خەیاڵی زانستی</a></li>
+                  </ul>
+                  <ul>
+                      <li><a href="#">توندوتیژی</a></li>
+                      <li><a href="#">دراما</a></li>
+                      <li><a href="#">جەنگ</a></li>
+                      <li><a href="#">ژیاننامە</a></li>
+                      <li><a href="#">ئاکشن</a></li>
+                      <li><a href="#">وەرزشی</a></li>
+                      <li><a href="#">تاوان</a></li>
+                  </ul>
+              </div>
+          </div>
+  
+          <div class="contact_us">
+              <span>پەیوندیمان پێوە بکەن</span>
+              <ul>
+                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-viber"></i></a></li>
+                  <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google"></i></a></li>
+              </ul>
+          </div>
+          
+          <div class="creator">
+              <span>دیزاین و دروستکردنی : <a href="#">ڕێبین ڕەفیق</a></span>
+          </div>
+          <div class="copyright">
+              <span><a href="#">CinemaFox</a>  مافی هەموو بەرهەمەکان پارێزراوە بۆ ماڵپەڕی &copy;</span>
+          </div>
+      </footer>
+      <!-- Footer end -->
+  
+      <!-- JavaScripts -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="/lib/main.js"></script>
+      <script src="/lib/load.js"></script>
+
+  </body>
+  </html>

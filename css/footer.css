@@ -1,0 +1,226 @@
+
+/* Global Variables */
+:root{
+    --main-dark:#111;
+    --main-deep-dark:#333;
+    --main-blur-dark:rgba(0,0,0,.5);
+    --main-blur-deep-dark:rgba(0,0,0,.7);
+    --main-blur-white:rgba(255,255,255,.5);
+    --main-steel-blue:#319de6;
+    --main-deep-white:#f7f1e3;
+    --main-droid-kufi:'DroidArabicKufiRegular';
+    --main-fjall:'Fjalla One', sans-serif;
+    --main-raleway:'Raleway', sans-serif;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: var(--main-deep-white);
+     outline: none;
+ }
+
+footer{
+    width: 100%;
+    height: 80vh;
+    background: var(--main-deep-dark);
+    overflow: hidden;
+    border-top: 2px solid var(--main-steel-blue);
+    position: relative;
+}
+footer  .logo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px;
+}
+footer  .logo img{
+    width: 200px;
+    display: block;
+}
+
+footer .container{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    top: 20%;
+    right: 0;
+    transform: translateY(-20%);
+}
+footer .container .about_us{
+    grid-column: 3;
+    grid-row: 1;
+    width: 400px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin: 0 20px;
+}
+footer .container .about_us span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-steel-blue);
+    margin: 10px;
+}
+footer .container .about_us p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-deep-white);
+    margin: 10px;
+}
+footer .container .navbar{
+    grid-column: 2;
+    margin: 0 20px;
+    grid-row: 1;
+    text-align: right;
+    position: absolute;
+    right: 40%;
+}
+footer .container .navbar span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-steel-blue);
+    margin: 10px;
+}
+footer .container .navbar ul{
+    list-style: none;
+    margin:10px;
+
+}
+footer .container .navbar ul li{
+    display: block;
+}
+footer .container .navbar ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-deep-white);
+    transition: .5s;
+}
+
+footer .container .tags{
+   text-align: right;
+   grid-column: 1;
+   position: absolute;
+   left: 0;
+   grid-row: 1;
+   display: grid;
+   margin: 0 20px;
+   grid-template-columns: repeat(3,1fr);
+}
+footer .container .tags span{
+    grid-column: 2/span 3;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-steel-blue);
+}
+footer .container .tags ul{
+    list-style: none;
+    margin: 10px;
+}
+footer .container .tags ul li{
+    display: block;
+}
+
+footer .container .tags ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-deep-white);
+    transition: .5s;
+}
+footer .container .navbar ul li a:hover,
+footer .container .tags ul li a:hover{
+    border-bottom: 1px dotted var(--main-steel-blue);
+}
+
+footer .contact_us{
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+footer .contact_us span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--main-droid-kufi);
+    color: var(--main-steel-blue);
+    margin: 10px;
+}
+
+footer .contact_us ul{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+footer .contact_us ul li{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
+footer .contact_us ul li a i{
+    font-size: 26px;
+    font-weight: 400;
+}
+footer .contact_us ul li:nth-child(1) a i{
+    color: #3b5999;
+}
+footer .contact_us ul li:nth-child(2) a i{
+    color: #55acee;
+}
+footer .contact_us ul li:nth-child(3) a i{
+    color: #7360f2;
+}
+footer .contact_us ul li:nth-child(4) a i{
+    color: #0088cc;
+}
+footer .contact_us ul li:nth-child(5) a i{
+    color: #dd4b39;
+}
+footer .creator{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer .creator span{
+    font-size: 16px;
+    color: var(--main-steel-blue);
+    font-family: var(--main-droid-kufi);
+}
+footer .creator span a{
+    font-size: 16px;
+    color: var(--main-deep-white);
+    font-family: var(--main-droid-kufi);
+    transition: .5s;
+}
+footer .creator span a:hover{
+    border-bottom: 1px dotted var(--main-steel-blue);
+}
+footer .copyright{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: right;
+}
+footer .copyright span{
+    font-size: 16px;
+    color: var(--main-deep-white);
+    font-family: var(--main-droid-kufi),var(--main-raleway);
+}
+
+footer .copyright span a{
+    color: var(--main-steel-blue);
+    font-weight: 600;
+    transition: .5s;
+}
+footer .copyright span a:hover{
+    border-bottom: 1px dotted var(--main-steel-blue);
+}
